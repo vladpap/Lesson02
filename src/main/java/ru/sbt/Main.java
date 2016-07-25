@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by vladimirpapin on 25.07.16.
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -16,9 +13,6 @@ public class Main {
         Random random = new Random(System.currentTimeMillis());
         List<Person> persons = new ArrayList<>();
         createPersons(persons);
-
-//        printPersons(persons);
-
 
         int countMaryy = 0;
         do {
@@ -51,7 +45,6 @@ public class Main {
 
         System.out.println("\nResult\n");
         printPersons(persons);
-
     }
 
     private static void createPersons(List<Person> persons) {
